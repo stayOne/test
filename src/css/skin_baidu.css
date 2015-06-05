@@ -1,0 +1,275 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("www.baidu.com"){/*背景*/
+body{
+background:url(http://a.hiphotos.baidu.com/super/crop%3D0%2C0%2C1633%2C1021/sign=7d753bccb0b7d0a26f865eddf6df5a39/503d269759ee3d6d85bad0b541166d224f4ade54.jpg) no-repeat  fixed center / cover !important;
+}
+.s-skin-container{opacity:0!important;}
+/*全局*/
+*:not(#showupbody):not(.volume-panel):not(#su):not(.c-container):not(.pc):not(.n){border:0!important;}
+*{font-family: "Microsoft YaHei"!important;}
+ /*搜索按钮*/
+.btn_wr,.s_btn_wr{background:transparent!important;}
+#su{font-size:16px!important;background: rgba(250,250,250,.7)!important;color:#000!important;opacity:0.5;border:1px solid rgba(65,65,65,0.4)!important;box-shadow:2px 2px 3px #555!important;width:100px!important;height:34px!important;line-height:34px!important;margin-top:1px!important;}
+#su:hover{font-size:17px!important;font-weight:900!important;box-shadow:2px 2px 9px #555!important;text-shadow:0 0 4px #000!important;}
+
+/*搜索框*/
+#kw{background:rgba(255,255,255,0.4)!important;height:32px!important;padding:0 0 0 10px!important;margin:2px 0!important;box-shadow: 0 0 5px #555!important;z-index:99!important;}
+#kw:hover {background:rgba(190, 190, 190, 0.45) !important;box-shadow: 0 0 9px #888!important;}
+#kw:focus{box-shadow: 0 0 10px  #0ac inset!important;}
+
+/*未登录搜索框*/
+input+.s_ipt_wr{background:transparent !important;width:550px!important;height:50px !important;margin-top:-5px !important;margin-left:-12px !important;}
+input+.s_ipt_wr #kw{width:522px!important;margin-top:8px !important;margin-left:12px !important;}
+
+/*搜索建议*/
+.bdsug{background:rgba(220,220,220,.7)url(http://f.hiphotos.bdimg.com/album/w%3D2048%3Bq%3D90/sign=906e7b05d739b6004dce08b7dd680e5b/a5c27d1ed21b0ef49e75e0b8dfc451da80cb3eb2.jpg) no-repeat scroll top right / auto 215px!important;z-index:304;}
+.bdsug ul{background:none !important;}
+/*屏蔽项目*/
+#s_nav_ctner>a,#bottom_container,.bottom-border,.top-border{display:none!important;}
+
+/*登录界面*/
+[id*="foreground"]{background:url(http://img4.duitang.com/uploads/item/201301/27/20130127132957_2PFAJ.jpeg) no-repeat  center /   cover;}
+[id*="2__title"],[id*="2__body"]{background:transparent!important;}
+[id*="Wrapper"]>input:not([id*="submit"]) {background-color: #ddd;box-shadow: 2px 2px 10px  #29c inset!important;opacity:0.6;transition:1s; color:#09d!important; font-size:16px!important;}
+[id*="Wrapper"]>input:not([id*="submit"]):hover,[id*="Wrapper"]>input:not([id*="submit"]):focus{opacity:1!important;}
+[id*="suggestionWrapper"]{opacity:0.8!important;}
+[id*="submit"]{opacity:0.7;transition:1s;box-shadow: 2px 2px 9px #888888!important;}
+[id*="submit"]:hover{opacity:1;}
+
+/*搜索设置；高级搜索*/
+.bdlayer{background:rgba(250,250,250,.8) !important;}
+.advanced-setting{background:none!important;}
+}
+
+@-moz-document url("http://www.baidu.com/"),
+url("http://www.baidu.com/?from=ibaidu"),
+url("http://www.baidu.com/#"),
+url-prefix("http://www.baidu.com/index.php"),
+url-prefix("http://www.baidu.com/?tn="),
+url("http://www.baidu.com/home?isNewVersion=1"),
+url("https://www.baidu.com/"),
+url("https://www.baidu.com/?from=ibaidu"),
+url("https://www.baidu.com/#"),
+url-prefix("https://www.baidu.com/index.php"),
+url-prefix("https://www.baidu.com/?tn="),
+url("https://www.baidu.com/home?isNewVersion=1"){
+
+/*logo*/
+#lg{background:url(http://g.hiphotos.bdimg.com/album/s%3D1400%3Bq%3D90/sign=20932f66c91349547a1eec60667ea929/6f061d950a7b020805b8a80660d9f2d3562cc8e0.jpg) no-repeat center / auto 80px !important;}
+#lg>img{opacity:0!important;}
+#sej-container{display:none!important;}
+/*导航*/
+#nv>*{font-size:16px!important;text-shadow:0 0 3px #000!important;}
+#nv a{color:#eee!important;}
+*{text-decoration:none!important;}
+/*搜索建议*/
+.bdsug{width:531px!important;}
+.has-background .bdsug{margin-top:-5px!important;}
+.bdsug li{width:515px!important;}
+/*高透*/
+[class*="s-opacity"] .s-skin-opacity-background,#s_ctner_menus,.fm-wrap>*,.nav-item,.s-mod-msg-bg,.s-user-set-menu a,.trea-content,.msg-area,#s_nadd>div,#s_ctner_contents>div, .s-content-load,.s-ctner-contents .s-content-load,.bdpfmenu{background:rgba(40,40,40,.3)!important;}
+/*低透*/
+.s-skin-layer,.weather-setting-content,.bdsug-overflow:hover,.bdsug-s,#s_nadd_form>*>*:not(a),li[ id*="s_nav_"]>*:hover,.subscribe-btn{background:rgba(240,240,240,.6)!important;}
+/*位置*/
+#s_ctner{margin-left:-50px!important;}
+/*导航部分*/
+[id^="s_ncf_name"]{padding-top:15px!important;}
+[id^="s_ncf_navs"]{width:800px!important;padding:5px!important;}
+.s-nplus-nav{height:35px!important;}
+.nplus-mover{background:rgba(255,255,255,.2)!important;height:35px!important;box-shadow: 0 0 10px  #0df !important}
+/*左侧*/
+#s_ctner_menus{ opacity:0;transition:1s !important;}
+#s_ctner_menus:hover{ opacity:1;}
+/*当前及鼠标经过过项目*/
+.s-skin-hasbg .s-ctner-menus .s-menu.current,#s_menus_wrapper>*:hover,#s_menu_add:hover{/*opacity:0.5;*/background:#07a!important;}
+/*透明部分*/
+[class*="s-opacity"] .s-ctner .s-ctner-menus .s-menu-fill,[class*="s-opacity"] .s-ctner-menus .s-menu,.s-ncf-navs,.s-menu-fill,.s-menu:not(:hover),#s_nadd>div,.fm-wrap>div,#s_nadd_form>*>label,#s_xmancard_music>*>*>*,#s_added_mods,#s_content_99>*,.s-nori-inner,.s-nori-navs,.s-opacity-100 .s-opacity-background2,.bdpfmenu a:link {background:transparent!important;}
+
+/*字体颜色*/
+#nv a:hover,#nv b,#s_ctner_contents>*:not(#s_content_2) *:not(.current),.hot li em,.hot-title *,.title-sns,.s-user-set-menu a:not(:hover),.weather-setting-content *:not(:hover),.show-weather>span>*,#u_sp *,#u1 a,.bdpfmenu a:not(:hover){color:#111111!important;}
+#nv a:hover,#nv b,#s_ctner_contents>*:not(#s_content_2) *,.hot li em,.hot-title *,.title-sns,.s-user-set-menu a,.city-wather em,#u_sp a,#allsign{
+text-shadow:0 0 6px #FFFFFF!important;
+}
+/*侧栏当前项，当前歌词，新闻经过项*/
+.current,.hot-content-cell em:hover{color:#f60!important;}
+/*新闻弹出项背景*/
+.suggest-main{background-color:rgba(240,240,240,.8)!important;}
+/*右上角微调*/
+#u_sp>*,.s-user-name-top{font-size:15px!important;}
+#s_usersetting_top,#s_username_top{margin:0px!important;}
+.menu-arrow,.user-arrow,.marked.rt,.bdnuarrow{display:none!important;}
+.user-name{padding:0 5px!important;}
+#s_user_name_menu{margin-right:25px!important;}
+#allsign{background:none !important;position:relative!important;top:-1px !important;}
+
+}
+@-moz-document regexp("^https?:\/\/www\.baidu\.com\/s.(?!rtt|tn).*"),url-prefix("http://www.baidu.com/baidu?"),url-prefix("http://www.baidu.com/#"),url-prefix("https://www.baidu.com/baidu?"),url-prefix("https://www.baidu.com/#"),url-prefix("http://www.baidu.com/s?"),url-prefix("https://www.baidu.com/s?"){
+/*广告无用项屏蔽*/
+.res_top_banner,[id*="top"],[data-tpl=hint_toprq1],#con-ar>[style],#about_is,.tools,.c-gray,.ec-figcaption,.leftBlock,#content_left>table,[align=left]>div:not([id]),.opui-advert2-smalllogo,.EC_newppim,#foot{display:none!important;}
+/*结果页顶部*/
+#head{background:rgba(245,245,245,.8)!important;width:100%!important;height:80px!important;padding:0!important;margin-bottom:10px !important;box-shadow:0 0!important;position:fixed !important;}
+#s_tab{background:transparent!important;position:fixed !important;top:0!important;left:140px!important;z-index:310;padding:0!important;}
+.s_form{position:fixed !important;top:20px!important;}
+#sej-container{position:fixed !important;top:80px!important;background:rgba(245,245,245,.8)!important;width:100%!important;box-shadow:-20px 10px 12px -5px #0df}
+.sej_container{position:fixed !important;top:75px!important;z-index:310;}
+div.sp-separator{background:none !important;}
+#form *{text-decoration:none!important;}
+#quickdelete{background:none;z-index:310;top:7px!important;margin-right:10px!important;}
+#quickdelete:before {content:"╳";font-size:20px;font-family: "Microsoft YaHei"!important;color:#888;margin-left:10px;}
+input+.s_ipt_wr #quickdelete{top:12px!important;margin-right:15px!important;}
+#quickdelete:hover:before{color:#222;}
+.s_logo,#result_logo{width:130px!important;height:50px!important;margin:0!important;}
+/*高级搜索工具*/
+.OP_LOG{position:fixed !important;left:820px!important;top:35px!important;z-index:301;}
+.head_nums_cont_inner>*{width:380px!important;margin:0px!important;}
+.head_nums_cont_inner *{font-size:13px!important;color:#000!important;}
+.c-tip-con,#c-tip-custom-calenderCont{z-index:302 !important;background:rgba(250,250,250,.8) !important;}
+.c-tip-con a:not(:hover),#c-tip-custom-calenderCont *{background-color:transparent!important;}
+/*右上角*/
+#u{font-size:0!important;}
+#u a{font-size:12px!important;text-decoration:none!important;}
+#u >a{font-size:16px!important;}
+#kw{width:525px!important;position:fixed!important;}
+
+/*结果页logo*/
+.s_logo>.bg,#result_logo{background:url("http://e.hiphotos.bdimg.com/album/s%3D1400%3Bq%3D90/sign=d202308fd309b3deefbfe06cfc8f57f0/63d9f2d3572c11df2da028c4612762d0f603c2e0.jpg") no-repeat center / 150% !important;}
+#result_logo>img{opacity:0!important;}
+
+/*搜索结果为0*/
+.content_none{padding-top:130px!important;}
+
+/*结果区域背景颜色*/
+#content_left,.content_none,#rs,.ct-content{background:rgba(255,255,255,.5)!important;}
+
+/*搜索建议*/
+.bdsug{width:522px!important;}
+.bdsug li:hover{background:rgba(200,200,200,.6)!important;width: 508px!important;}
+
+/*侧栏鼠标经过弹出*/
+#content_right{position: absolute;margin-top:120px;right:0;padding:10px 0 0 20px;width:100px!important;background:rgba(240,240,240,0.7);box-shadow: 0 0 15px #0ad;z-index:1}
+[cellspacing="0"]{
+margin-top:10px!important;
+}
+#con-ar {margin:0!important;
+}
+.c-table th {background:none!important;
+}
+#content_right{
+height:28px;
+overflow:hidden;
+}
+#content_right:active {
+height:auto;
+width:375px!important;
+}
+#content_right:before {
+content:"点击打开侧栏";
+cursor:pointer;
+}
+#content_right:active:before {
+content:"点击关闭侧栏";
+}
+/*页码*/
+#page {margin: 0!important;padding: 0 0 0 20px!important;}
+#page a:not(.n), #page strong{height:70px !important;}
+#page a.n{margin-bottom:4px !important;}
+#page *:not(i) {background:transparent!important;margin-right:0!important;}
+#page .pc,#page .n{background:rgba(255,255,255,.4)!important;border:solid 1px #09e!important;margin-bottom:1px!important;}
+#page .pc{margin:auto 5px!important;}
+#page strong .pc,#page .pc:hover{width: 34px;height: 34px;background:rgba(205,205,205,.7)!important;box-shadow:0 0 5px #000!important;font-size:18px!important;}
+
+/*去XX吧讨论*/
+.to_tieba{position:relative!important;bottom:-5px!important;left:160px!important;margin:0!important;width:300px!important;height:0px!important;}
+
+/*人物搜索新花样*/
+#con-at{width: 100% !important;margin:110px 20px -110px!important;padding:0!important;}
+.result-op.xpath-log{width:-moz-calc(80% + 60px)!important;width:-webkit-calc(80% + 60px)!important;width:-o-calc(80% + 60px)!important;}
+.ct-content{padding:10px 60px 20px 35px!important;}
+.opt_relation_main>a{background:rgba(205,205,205,.6)!important;}
+.opt_relation_main>a:before{content:"<";font-size:40px!important;color:#09c!important;position:absolute!important;margin-top:50px!important;}
+.opt_relation_main>a[class*="right"]:before{content:">";}
+.opt_relation_list_item a:hover {background:rgba(222, 222, 222, 0.6)!important;}
+
+/*结果区域*/
+#wrapper{overflow-x:auto!important;}
+.container_l {width: 100%!important;}
+.c-border{box-shadow:none!important;}
+#wrapper *{text-decoration:none!important;}
+#content_left {
+      width: 100% !important;
+      max-width: 80% !important;
+      min-width:600px!important;
+      padding:20px 30px 0!important;
+      margin:110px 0 0 20px!important;
+    }
+#content_left>*:not([id^="sp"]){
+      width: 49% !important;
+      height:120px!important;
+      overflow:hidden!important;
+      float: left !important;
+      margin: 5px!important;
+      padding:9px!important;
+      border:solid 1px #09e!important;
+      box-sizing:border-box!important;
+      counter-increment:Counter 1;
+}
+/*计数器*/
+.c-container > h3::before{
+  content:counter(Counter) "." ;
+  margin-right:3px;
+  color:#00f
+}
+table .f{padding:9px!important;}
+#content_left>*:not([id^="sp"]):hover {
+overflow: auto!important;
+    background:rgba(185,185,185,.3)!important;
+    box-shadow:0 0 7px #09e!important;
+    }
+/*底部相关搜索*/
+#rs{width:-moz-calc(80% + 60px)!important;width:-webkit-calc(80% + 60px)!important;width:-o-calc(80% + 60px)!important;margin:0 70px 20px 20px!important;}
+#rs>*{width:100%!important;margin-left:60px!important;}
+#rs > table { border-spacing: 5px !important;margin-left:50px!important; }
+#rs th { width: 0px !important; }
+#rs tr { float: left !important; }
+body{
+background:url(http://img1.imgtn.bdimg.com/it/u=1648923683,2130150020&fm=21&gp=0.jpg) no-repeat  fixed center / cover !important;
+}
+
+/*最新相关 最新微博*/
+}
+@-moz-document regexp("^https?:\/\/www\.baidu\.com\/(s.rtt|s.tn).*"),regexp("^https?:\/\/www\.baidu\.com\/s.*baiduwb.*"){
+#head{background:rgba(245,245,245,.8)!important;position:fixed !important;top:0!important;left:0px !important;padding-left:20px !important;width:100% !important;height:85px !important;box-shadow:0 0 18px #0ac!important;}
+.s_tab{margin-top:10px !important;}
+.s_tab>*{color:#666!important;margin-left:16px !important;}
+#u{margin:10px 20px 0 0!important;}
+#u a{color:#666!important;font-size:15px !important;background:none!important;padding-right:0!important;}
+.fm{top:-35px !important;left:130px !important;}
+.s_ipt_wr{background:none!important;}
+.s_logo{background:url("http://e.hiphotos.bdimg.com/album/s%3D1400%3Bq%3D90/sign=d202308fd309b3deefbfe06cfc8f57f0/63d9f2d3572c11df2da028c4612762d0f603c2e0.jpg") no-repeat center / 150% !important;margin-top:20px !important;margin-left:-10px !important;}
+.s_logo>img{opacity:0!important;}
+#wrapper{padding-left:40px !important;}
+#side,#main{background:rgba(255,255,255,.5)!important;padding:20px 0!important;margin:120px 0 0!important;}
+#side>ul{margin-left:20px !important;}
+#page *{height:34px!important;line-height:34px!important;min-width:34px!important;overflow:visible!important;}
+#page .fk{display:none!important;}
+#page .n{margin-bottom:-1px!important;}
+#search{display:none!important;}
+#controlButton{background:none!important;}
+.main_l #controlButton:before{content:"<";font-size:30px;font-family:"仿宋";font-weight:900;color:rgba(100,100,100,.6);}
+.main_l #controlButton[title*="开"]:before{content:">";}
+
+}
+
+/*更多页面*/
+@-moz-document url("http://www.baidu.com/more/"),url("https://www.baidu.com/more/"){
+.logo{background:url("http://e.hiphotos.bdimg.com/album/s%3D1400%3Bq%3D90/sign=d202308fd309b3deefbfe06cfc8f57f0/63d9f2d3572c11df2da028c4612762d0f603c2e0.jpg") no-repeat center / 150% !important;margin-left:-10px !important;}
+.logo>img{opacity:0!important;}
+.s_ipt_wr,#s_tab,.footer{background:none!important;}
+#st{background:rgba(240,240,240,.6)url(http://f.hiphotos.bdimg.com/album/w%3D2048%3Bq%3D90/sign=906e7b05d739b6004dce08b7dd680e5b/a5c27d1ed21b0ef49e75e0b8dfc451da80cb3eb2.jpg) no-repeat scroll top right / auto 215px!important;margin:13px 11px!important;}
+.fm{margin-top:-2px !important;}
+.s_ipt_wr,.btn_wr{padding:10px !important;}
+.bdsug{margin:10px !important;}
+#main{background:rgba(40,40,40,.3)!important;padding:20px !important;}
+h3.new{margin:0 !important;}
+#s_tab *,#main *{color:#111111!important;}
+}
